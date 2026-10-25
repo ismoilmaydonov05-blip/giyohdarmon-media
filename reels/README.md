@@ -51,8 +51,8 @@ TZ=Asia/Dushanbe date '+%F %H:%M'      # the container default TZ is America/Los
 ```
 - **D = today** if local time < 07:30, otherwise **tomorrow**. Slots: D 08:00, 09:30, 11:00, 17:00, 19:00 (+05:00).
 - A slot that is already in the past or < 10 minutes ahead is skipped (never schedule in the past; say so in the report).
-- `getScheduledPosts(brandId="7600598", fromDate="D T00:00:00+05:00", toDate="D T23:59:00+05:00", timezone="Asia/Dushanbe")`.
-  A slot is **filled** if a post with `instagramData.type == "REEL"` has `publicationDate` within ±5 min of it. Carousels (`type: POST`) do not count and are never touched.
+- Check each slot with ONE NARROW query: `getScheduledPosts(brandId="7600598", fromDate=<slot−10 min>, toDate=<slot+10 min>, timezone="Asia/Dushanbe")`, e.g. 07:50:00+05:00 … 08:10:00+05:00. (Never query the whole day: the owner's carousels have very long captions and the answer would flood your context.)
+  A slot is **filled** if a post with `instagramData.type == "REEL"` is in that window (within ±5 min of the slot). Carousels (`type: POST`) do not count and are never touched; one of them sits at 08:00 every day — that is normal.
 - Free slots = the work list. None free → just verify (section 7 last step) and finish with a short report. Running twice is therefore harmless.
 - Before EVERY `createScheduledPost` repeat this check for that slot (±10 min); if a Reel appeared meanwhile, skip the slot.
 - Two posts in the same minute are fine (verified: a carousel and a Reel both published at 23:30).
@@ -157,11 +157,11 @@ git pull --rebase origin main && git push origin HEAD:main        # retry up to 
 ```
 
 ## 7. Finish a produce/catchup run
-`getScheduledPosts` for the whole day D: all five slots must now show a REEL (status PENDING or PUBLISHED). Anything missing → list it with the reason. Check `credits_balance_get` again. Final answer: section 9 (short version: what was created, what was skipped, problems).
+Repeat the narrow slot-window query (section 3) for all five slots: each must now show a REEL (status PENDING or PUBLISHED). Anything missing → list it with the reason. Check `credits_balance_get` again. Final answer: section 9 (short version: what was created, what was skipped, problems).
 
 ## 8. MODE=report (evening, ~19:25)
 1. Load tools (section 1), clone repo (section 2, no Speko needed except the balance), D = today.
-2. `getScheduledPosts` for D (00:00–23:59). For each slot (±5 min, REEL) classify: `PUBLISHED` + publicUrl = success · `PENDING` and slot time still ahead = scheduled · `PENDING` > 10 min after slot or any ERROR/failed status = problem (copy `detailedStatus`).
+2. Narrow slot-window query (section 3) for each of the five slots of D. For each slot (±5 min, REEL) classify: `PUBLISHED` + publicUrl = success · `PENDING` and slot time still ahead = scheduled · `PENDING` > 10 min after slot or any ERROR/failed status = problem (copy `detailedStatus`).
 3. For each success: `python3 tools/record_run.py status --id <ID> --status PUBLISHED --url <publicUrl>`; for problems `--status FAILED --note "<detailedStatus>"`.
 4. **One retry** for a Reel that is clearly failed (not PUBLISHED, no publicUrl, error status, slot passed) while the time is before 21:30: `updateScheduledPost(id, uuid, blogId="7600598", info=<same info as returned by getScheduledPosts, only publicationDate moved to now+15 min rounded up>)`. Report the new time. Never retry a post that might already be live.
 5. Write `reports/D.md` (the report below), `git add reels/state reels/reports`, commit, `pull --rebase`, push.
