@@ -1,0 +1,1318 @@
+{
+ "license_note": "All images are free to use commercially (Pexels License / public domain / CC BY with credit where marked). Never imply endorsement by people shown; never depict identifiable people as having a medical condition.",
+ "images": [
+  {
+   "id": "breakfast_fruit_bowls",
+   "file": "stock/breakfast_fruit_bowls.jpg",
+   "tags": [
+    "breakfast",
+    "fruit",
+    "nutrition",
+    "healthy_food",
+    "table",
+    "morning"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 39865391,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "bed_phone_night",
+   "file": "stock/bed_phone_night.jpg",
+   "tags": [
+    "sleep",
+    "bedtime",
+    "phone",
+    "screens",
+    "evening",
+    "bedroom"
+   ],
+   "people": "partial",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 6940877,
+   "url": null,
+   "notes": "person in pyjamas on bed with phone, face turned away",
+   "restrictions": []
+  },
+  {
+   "id": "produce_veg_fruit_pile",
+   "file": "stock/produce_veg_fruit_pile.jpg",
+   "tags": [
+    "vegetables",
+    "fruit",
+    "produce",
+    "market",
+    "nutrition",
+    "healthy_food"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 37175469,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "woman_stress_laptop",
+   "file": "stock/woman_stress_laptop.jpg",
+   "tags": [
+    "stress",
+    "work",
+    "office",
+    "tired"
+   ],
+   "people": "face",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 5717262,
+   "url": null,
+   "notes": "identifiable person shown stressed - do not use on health-claim rows",
+   "restrictions": [
+    "avoid_identifiable_person_in_distress"
+   ]
+  },
+  {
+   "id": "woman_stretch_window",
+   "file": "stock/woman_stretch_window.jpg",
+   "tags": [
+    "stretching",
+    "exercise",
+    "yoga",
+    "morning",
+    "relax",
+    "breathing",
+    "home"
+   ],
+   "people": "back",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 7592462,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "woman_tea_aroma",
+   "file": "stock/woman_tea_aroma.jpg",
+   "tags": [
+    "tea",
+    "herbal_tea",
+    "relax",
+    "evening",
+    "cup",
+    "kitchen"
+   ],
+   "people": "face",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 8330237,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "bedding_unmade",
+   "file": "stock/bedding_unmade.jpg",
+   "tags": [
+    "bedding",
+    "bedroom",
+    "sleep",
+    "laundry",
+    "hygiene",
+    "home"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 10061393,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "family_hug",
+   "file": "stock/family_hug.jpg",
+   "tags": [
+    "family",
+    "children",
+    "home",
+    "hug",
+    "together"
+   ],
+   "people": "face",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 4617316,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "family_park",
+   "file": "stock/family_park.jpg",
+   "tags": [
+    "family",
+    "children",
+    "outdoors",
+    "park",
+    "spring"
+   ],
+   "people": "face",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 4543633,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "lab_test_tubes",
+   "file": "stock/lab_test_tubes.jpg",
+   "tags": [
+    "lab",
+    "test",
+    "analysis",
+    "tubes",
+    "medical"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 3735699,
+   "url": null,
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "abdomen_hands",
+   "file": "stock/abdomen_hands.jpg",
+   "tags": [
+    "stomach",
+    "abdomen",
+    "digestion",
+    "belly"
+   ],
+   "people": "partial",
+   "width": 1400,
+   "height": 789,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": 7298668,
+   "url": null,
+   "notes": "torso only, no face",
+   "restrictions": []
+  },
+  {
+   "id": "candy_colorful",
+   "file": "stock/candy_colorful.jpg",
+   "tags": [
+    "sugar",
+    "sweets",
+    "candy",
+    "dental"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "cloves_in_spoon",
+   "file": "stock/cloves_in_spoon.jpg",
+   "tags": [
+    "spices",
+    "cloves",
+    "herbs",
+    "kitchen"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Marek Ruczaj",
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "black_seed_bowl",
+   "file": "stock/black_seed_bowl.jpg",
+   "tags": [
+    "spices",
+    "seeds",
+    "black_seed",
+    "herbs",
+    "bowl"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 1400,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Marek Ruczaj",
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "dental_model_tools",
+   "file": "stock/dental_model_tools.jpg",
+   "tags": [
+    "dental",
+    "teeth",
+    "dentist",
+    "oral_hygiene",
+    "model"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "dentist_treating",
+   "file": "stock/dentist_treating.jpg",
+   "tags": [
+    "dentist",
+    "dental",
+    "teeth",
+    "clinic"
+   ],
+   "people": "masked",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "dentist_exam",
+   "file": "stock/dentist_exam.jpg",
+   "tags": [
+    "dentist",
+    "dental",
+    "clinic",
+    "checkup"
+   ],
+   "people": "masked",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "doctor_with_patient",
+   "file": "stock/doctor_with_patient.jpg",
+   "tags": [
+    "doctor",
+    "consultation",
+    "clinic",
+    "health",
+    "checkup"
+   ],
+   "people": "face",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "doctor_desk_consult",
+   "file": "stock/doctor_desk_consult.jpg",
+   "tags": [
+    "doctor",
+    "consultation",
+    "clinic",
+    "checkup"
+   ],
+   "people": "face",
+   "width": 1500,
+   "height": 843,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "dried_fruits_bowls",
+   "file": "stock/dried_fruits_bowls.jpg",
+   "tags": [
+    "dried_fruit",
+    "nuts",
+    "snack",
+    "nutrition",
+    "bowls"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Joel Camelot",
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "dried_fruits_plate",
+   "file": "stock/dried_fruits_plate.jpg",
+   "tags": [
+    "dried_fruit",
+    "nuts",
+    "plate",
+    "tradition",
+    "table"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "honey_jars_sticks",
+   "file": "stock/honey_jars_sticks.jpg",
+   "tags": [
+    "honey",
+    "jars",
+    "sweet",
+    "natural"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "honey_jars_comb",
+   "file": "stock/honey_jars_comb.jpg",
+   "tags": [
+    "honey",
+    "comb",
+    "nuts",
+    "natural",
+    "jars"
+   ],
+   "people": "none",
+   "width": 1124,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "honey_spoon_jar",
+   "file": "stock/honey_spoon_jar.jpg",
+   "tags": [
+    "honey",
+    "spoon",
+    "natural"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "honey_drip",
+   "file": "stock/honey_drip.jpg",
+   "tags": [
+    "honey",
+    "drip",
+    "spoon",
+    "natural"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "puerh_tea_cake",
+   "file": "stock/puerh_tea_cake.jpg",
+   "tags": [
+    "tea",
+    "herbal_tea",
+    "ceremony",
+    "evening"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "salad_plate",
+   "file": "stock/salad_plate.jpg",
+   "tags": [
+    "salad",
+    "vegetables",
+    "healthy_food",
+    "lunch",
+    "diet",
+    "plate"
+   ],
+   "people": "none",
+   "width": 1124,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "woman_sleeping",
+   "file": "stock/woman_sleeping.jpg",
+   "tags": [
+    "sleep",
+    "bed",
+    "rest",
+    "night",
+    "bedroom"
+   ],
+   "people": "face",
+   "width": 1400,
+   "height": 934,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "peaceful sleeping person; Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "sugar_cubes_spoon",
+   "file": "stock/sugar_cubes_spoon.jpg",
+   "tags": [
+    "sugar",
+    "sweets",
+    "limit_sugar",
+    "spoon"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 927,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "tea_set_dark",
+   "file": "stock/tea_set_dark.jpg",
+   "tags": [
+    "tea",
+    "cups",
+    "teapot",
+    "tradition"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 1006,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Dmitri Koshelev",
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "woman_yawning_office",
+   "file": "stock/woman_yawning_office.jpg",
+   "tags": [
+    "tired",
+    "yawning",
+    "work",
+    "office",
+    "fatigue"
+   ],
+   "people": "face",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "mildly negative depiction of an identifiable person; prefer other images for fatigue rows",
+   "restrictions": [
+    "avoid_identifiable_person_in_distress"
+   ]
+  },
+  {
+   "id": "toothpaste_on_brush_hand",
+   "file": "stock/toothpaste_on_brush_hand.jpg",
+   "tags": [
+    "toothbrush",
+    "toothpaste",
+    "brushing",
+    "oral_hygiene",
+    "bathroom"
+   ],
+   "people": "partial",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "toothbrush_paste_marble",
+   "file": "stock/toothbrush_paste_marble.jpg",
+   "tags": [
+    "toothbrush",
+    "toothpaste",
+    "oral_hygiene",
+    "dental"
+   ],
+   "people": "none",
+   "width": 1400,
+   "height": 934,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "park_path_walk",
+   "file": "stock/park_path_walk.jpg",
+   "tags": [
+    "walking",
+    "park",
+    "nature",
+    "path",
+    "exercise",
+    "outdoors"
+   ],
+   "people": "distant",
+   "width": 1001,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "evening_walk_park",
+   "file": "stock/evening_walk_park.jpg",
+   "tags": [
+    "walking",
+    "evening",
+    "park",
+    "nature",
+    "exercise",
+    "outdoors"
+   ],
+   "people": "distant",
+   "width": 1400,
+   "height": 933,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "walnuts_basket",
+   "file": "stock/walnuts_basket.jpg",
+   "tags": [
+    "walnuts",
+    "nuts",
+    "basket",
+    "nutrition"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Hilal",
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "walnut_oil_scene",
+   "file": "stock/walnut_oil_scene.jpg",
+   "tags": [
+    "walnuts",
+    "oil",
+    "nuts",
+    "kitchen"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "walnuts_pile",
+   "file": "stock/walnuts_pile.jpg",
+   "tags": [
+    "walnuts",
+    "nuts",
+    "nutrition"
+   ],
+   "people": "none",
+   "width": 1124,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "water_glass",
+   "file": "stock/water_glass.jpg",
+   "tags": [
+    "water",
+    "hydration",
+    "glass",
+    "drink",
+    "healthy"
+   ],
+   "people": "none",
+   "width": 921,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "Pexels (photo id not recorded)",
+   "restrictions": []
+  },
+  {
+   "id": "pinworm_microscopy",
+   "file": "stock/pinworm_microscopy.jpg",
+   "tags": [
+    "worms",
+    "pinworm",
+    "microscope",
+    "parasite",
+    "educational"
+   ],
+   "people": "none",
+   "width": 700,
+   "height": 471,
+   "source": "Wikimedia Commons \"Head of Enterobius vermicularis human pinworm 5230 lores.jpg\"",
+   "license": "Public domain",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "",
+   "restrictions": [
+    "worm_topics_only"
+   ]
+  },
+  {
+   "id": "worm_hygiene_collage",
+   "file": "stock/worm_hygiene_collage.jpg",
+   "tags": [
+    "hygiene",
+    "handwashing",
+    "vegetables",
+    "prevention",
+    "worms"
+   ],
+   "people": "none",
+   "width": 940,
+   "height": 1140,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "collage of Pexels 5240611 (hand washing) + 5237963 (washing cucumber); portrait collage",
+   "restrictions": []
+  },
+  {
+   "id": "worm_transmission_collage",
+   "file": "stock/worm_transmission_collage.jpg",
+   "tags": [
+    "hygiene",
+    "dirty_hands",
+    "potatoes",
+    "soil",
+    "worms",
+    "transmission"
+   ],
+   "people": "none",
+   "width": 940,
+   "height": 1140,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "collage of Pexels 33554029 (dirty hand) + 33653570 (potatoes); portrait collage",
+   "restrictions": []
+  },
+  {
+   "id": "worm_ascaris_collage",
+   "file": "stock/worm_ascaris_collage.jpg",
+   "tags": [
+    "worms",
+    "ascaris",
+    "microscope",
+    "parasite",
+    "educational"
+   ],
+   "people": "none",
+   "width": 940,
+   "height": 1140,
+   "source": "Wikimedia Commons \"Ascaris lumbricoides adult worms.png\" (SuSanA Secretariat) + microscopy",
+   "license": "CC BY 2.0 - credit required: \"SuSanA Secretariat, CC BY 2.0, via Wikimedia Commons\"",
+   "author": null,
+   "pexels_id": null,
+   "url": null,
+   "notes": "",
+   "restrictions": [
+    "credit_required",
+    "worm_topics_only"
+   ]
+  },
+  {
+   "id": "doctor_1_px7578797",
+   "file": "stock/doctor_1_px7578797.jpg",
+   "tags": [
+    "doctor",
+    "consultation",
+    "clinic",
+    "desk"
+   ],
+   "people": "face",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "cottonbro studio",
+   "pexels_id": 7578797,
+   "url": "https://www.pexels.com/photo/7578797/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "doctor_2_px39192358",
+   "file": "stock/doctor_2_px39192358.jpg",
+   "tags": [
+    "doctor",
+    "consultation",
+    "older_patient",
+    "clinic"
+   ],
+   "people": "face",
+   "width": 1500,
+   "height": 843,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Vitaly Gariev",
+   "pexels_id": 39192358,
+   "url": "https://www.pexels.com/photo/39192358/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "family_1_px5990698",
+   "file": "stock/family_1_px5990698.jpg",
+   "tags": [
+    "family",
+    "dinner",
+    "table",
+    "home",
+    "together"
+   ],
+   "people": "face",
+   "width": 1500,
+   "height": 1000,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "cottonbro studio",
+   "pexels_id": 5990698,
+   "url": "https://www.pexels.com/photo/5990698/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "family_2_px25957006",
+   "file": "stock/family_2_px25957006.jpg",
+   "tags": [
+    "family",
+    "table",
+    "people",
+    "gathering"
+   ],
+   "people": "face",
+   "width": 1500,
+   "height": 843,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Ethem Günhan",
+   "pexels_id": 25957006,
+   "url": "https://www.pexels.com/photo/25957006/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "handwash_1_px5938598",
+   "file": "stock/handwash_1_px5938598.jpg",
+   "tags": [
+    "handwashing",
+    "soap",
+    "hygiene",
+    "sink"
+   ],
+   "people": "partial",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Sora Shimazaki",
+   "pexels_id": 5938598,
+   "url": "https://www.pexels.com/photo/5938598/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "handwash_2_px7262423",
+   "file": "stock/handwash_2_px7262423.jpg",
+   "tags": [
+    "handwashing",
+    "soap",
+    "hygiene",
+    "hands"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Sarah Chai",
+   "pexels_id": 7262423,
+   "url": "https://www.pexels.com/photo/7262423/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "kitchen_1_px19836790",
+   "file": "stock/kitchen_1_px19836790.jpg",
+   "tags": [
+    "kitchen",
+    "clean",
+    "sink",
+    "home"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Lisa Anna",
+   "pexels_id": 19836790,
+   "url": "https://www.pexels.com/photo/19836790/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "kitchen_2_px5904036",
+   "file": "stock/kitchen_2_px5904036.jpg",
+   "tags": [
+    "kitchen",
+    "dishes",
+    "soap",
+    "sponge",
+    "hygiene"
+   ],
+   "people": "none",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "cottonbro studio",
+   "pexels_id": 5904036,
+   "url": "https://www.pexels.com/photo/5904036/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "lab_1_px8533045",
+   "file": "stock/lab_1_px8533045.jpg",
+   "tags": [
+    "lab",
+    "microscope",
+    "analysis",
+    "test"
+   ],
+   "people": "partial",
+   "width": 1500,
+   "height": 843,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Artem Podrez",
+   "pexels_id": 8533045,
+   "url": "https://www.pexels.com/photo/8533045/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "lab_2_px13949979",
+   "file": "stock/lab_2_px13949979.jpg",
+   "tags": [
+    "lab",
+    "microscope",
+    "science"
+   ],
+   "people": "none",
+   "width": 1500,
+   "height": 1000,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Vladimir Srajber",
+   "pexels_id": 13949979,
+   "url": "https://www.pexels.com/photo/13949979/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "market_1_px37321079",
+   "file": "stock/market_1_px37321079.jpg",
+   "tags": [
+    "market",
+    "vegetables",
+    "fresh",
+    "produce",
+    "colorful"
+   ],
+   "people": "none",
+   "width": 1500,
+   "height": 999,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Muhamad Guruh Budi Hartono",
+   "pexels_id": 37321079,
+   "url": "https://www.pexels.com/photo/37321079/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "market_2_px33214226",
+   "file": "stock/market_2_px33214226.jpg",
+   "tags": [
+    "market",
+    "vegetables",
+    "supermarket",
+    "produce"
+   ],
+   "people": "none",
+   "width": 1500,
+   "height": 998,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "阿凯 AARONK",
+   "pexels_id": 33214226,
+   "url": "https://www.pexels.com/photo/33214226/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "meat_1_px9182633",
+   "file": "stock/meat_1_px9182633.jpg",
+   "tags": [
+    "thermometer",
+    "cooking",
+    "meat",
+    "food_safety",
+    "kitchen"
+   ],
+   "people": "none",
+   "width": 1500,
+   "height": 1000,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Ronaldo Guiraldelli",
+   "pexels_id": 9182633,
+   "url": "https://www.pexels.com/photo/9182633/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "meat_2_px16341443",
+   "file": "stock/meat_2_px16341443.jpg",
+   "tags": [
+    "meat",
+    "cooking",
+    "pot",
+    "kitchen",
+    "hands"
+   ],
+   "people": "partial",
+   "width": 1500,
+   "height": 1000,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Kei Scampa",
+   "pexels_id": 16341443,
+   "url": "https://www.pexels.com/photo/16341443/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "stomach_1_px5938369",
+   "file": "stock/stomach_1_px5938369.jpg",
+   "tags": [
+    "stomach",
+    "pain",
+    "woman"
+   ],
+   "people": "face",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Sora Shimazaki",
+   "pexels_id": 5938369,
+   "url": "https://www.pexels.com/photo/5938369/",
+   "notes": "",
+   "restrictions": [
+    "avoid_identifiable_person_in_distress"
+   ]
+  },
+  {
+   "id": "stomach_2_px5938365",
+   "file": "stock/stomach_2_px5938365.jpg",
+   "tags": [
+    "stomach",
+    "pain",
+    "woman",
+    "couch"
+   ],
+   "people": "face",
+   "width": 1500,
+   "height": 1000,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Sora Shimazaki",
+   "pexels_id": 5938365,
+   "url": "https://www.pexels.com/photo/5938365/",
+   "notes": "",
+   "restrictions": [
+    "avoid_identifiable_person_in_distress"
+   ]
+  },
+  {
+   "id": "veg_1_px8805242",
+   "file": "stock/veg_1_px8805242.jpg",
+   "tags": [
+    "washing_vegetables",
+    "tomato",
+    "hygiene",
+    "kitchen"
+   ],
+   "people": "partial",
+   "width": 1000,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Mike Jones",
+   "pexels_id": 8805242,
+   "url": "https://www.pexels.com/photo/8805242/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "veg_2_px8805230",
+   "file": "stock/veg_2_px8805230.jpg",
+   "tags": [
+    "washing_vegetables",
+    "parsley",
+    "herbs",
+    "hygiene",
+    "kitchen"
+   ],
+   "people": "partial",
+   "width": 999,
+   "height": 1499,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Mike Jones",
+   "pexels_id": 8805230,
+   "url": "https://www.pexels.com/photo/8805230/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "water_1_px36073140",
+   "file": "stock/water_1_px36073140.jpg",
+   "tags": [
+    "boiling_water",
+    "pot",
+    "stove",
+    "kitchen",
+    "steam"
+   ],
+   "people": "none",
+   "width": 946,
+   "height": 1500,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "女子 正真",
+   "pexels_id": 36073140,
+   "url": "https://www.pexels.com/photo/36073140/",
+   "notes": "",
+   "restrictions": []
+  },
+  {
+   "id": "water_2_px12673645",
+   "file": "stock/water_2_px12673645.jpg",
+   "tags": [
+    "boiling_water",
+    "pot",
+    "burner",
+    "kitchen"
+   ],
+   "people": "none",
+   "width": 1500,
+   "height": 1000,
+   "source": "Pexels (https://www.pexels.com)",
+   "license": "Pexels License - free for commercial use, attribution not required",
+   "author": "Anna Shvets",
+   "pexels_id": 12673645,
+   "url": "https://www.pexels.com/photo/12673645/",
+   "notes": "",
+   "restrictions": []
+  }
+ ]
+}
