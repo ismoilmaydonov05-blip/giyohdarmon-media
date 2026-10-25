@@ -1,0 +1,13 @@
+Source: Pexels (https://www.pexels.com). Verified 2026-10-25.
+License: Pexels License (https://www.pexels.com/license/) - free for commercial use, attribution not required.
+Restrictions: do not sell unmodified copies; do not imply endorsement of a product by the people shown; do not present people as having a medical condition.
+Used for: Giyohdarmon educational content.
+
+File: lab_1_pexels-8533045.jpg
+Author: Artem Podrez (https://www.pexels.com/@artempodrez)
+Source: https://www.pexels.com/photo/a-person-looking-through-the-microscope-8533045/
+
+File: lab_2_pexels-13949979.jpg
+Author: Vladimir Srajber (https://www.pexels.com/@vladimirsrajber)
+Source: https://www.pexels.com/photo/close-up-of-a-microscope-13949979/
+
