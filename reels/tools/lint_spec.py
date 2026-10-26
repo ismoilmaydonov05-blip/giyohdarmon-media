@@ -54,6 +54,9 @@ def main():
     if bool(spec.get('delivery', True)) != bool(p['delivery']): E(f"delivery must be {p['delivery']} for this product")
     if bool(spec.get('disclaimer', True)) != bool(p['disclaimer']): E(f"disclaimer must be {p['disclaimer']} for this product")
     if not os.path.exists(os.path.join(ROOT, 'assets', 'music', spec['music'] + '.mp3')): E('unknown music ' + spec['music'])
+    style = spec.get('style', 'fast')
+    if style not in ('fast', 'classic'): E('style must be "fast" or "classic" (or omitted = fast)')
+    elif style == 'fast' and spec['music'].startswith('calm_'): Wn('calm music in the fast style - use upbeat_sunrise | upbeat_walk | upbeat_market | upbeat_garden')
     rows = spec['rows']
     if not (8 <= len(rows) <= 13): E(f'rows must be 8..13, got {len(rows)}')
     name_core = re.sub(r'\s+', '', p['name']).lower()
@@ -74,9 +77,10 @@ def main():
             if re.search(rx, t, re.I): Wn(f'{tag}: {why}')
         img = r.get('img')
         if not img: E(tag + ': missing img')
-        else:
+        for k_, img in (('img', r.get('img')), ('img2', r.get('img2'))):
+            if not img: continue
             used_imgs.append(img)
-            if not os.path.exists(os.path.join(ROOT, 'assets', img)): E(f'{tag}: image file not found: {img}')
+            if not os.path.exists(os.path.join(ROOT, 'assets', img)): E(f'{tag}: {k_} file not found: {img}'); continue
             meta = stock.get(img)
             if meta:
                 if meta.get('restrictions') and any(x.startswith('avoid_') for x in meta['restrictions']): E(f'{tag}: image {img} is restricted ({meta["restrictions"]})')

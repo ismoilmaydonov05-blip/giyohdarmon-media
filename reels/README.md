@@ -74,7 +74,7 @@ Work dir: `W=/tmp/reels/D/n` (n = slot number 1..5), `ID=D_n` (e.g. `2026-10-26_
 ### 5.1 Spec `$W/spec.json`
 ```json
 { "id": "2026-10-26_1", "date": "2026-10-26", "product": "memix", "product_name": "МеМикс",
-  "topic": "short unique Tajik topic label", "music": "calm_evening",
+  "topic": "short unique Tajik topic label", "music": "upbeat_walk",
   "final_img": "products/memix/main.jpg",
   "final_lines": ["Барои маълумот ва фармоиш", "ба Вотсап нависед"],
   "delivery": true, "disclaimer": true,
@@ -86,7 +86,9 @@ Work dir: `W=/tmp/reels/D/n` (n = slot number 1..5), `ID=D_n` (e.g. `2026-10-26_
 - `kw`: 1–3 key words per row, spelled exactly as in the row (gold highlight).
 - `img` per row: `python3 tools/find_images.py tag1 tag2 --date D --product <id>` (or `--list`). Pick a real photo that fits the sentence; every stock image at most once per video; prefer images not used recently; `products/<id>/main.jpg` only in the last 3 rows.
   The picture must illustrate the MAIN idea of its row — a pretty but unrelated photo (e.g. a kitchen sink for «keep it away from the sun») is a defect: reword the row, or split a two-idea row, so that an available photo really fits. Avoid using the same stock image in two videos of the same day (`find_images.py` prints `last=<date>`; choose `-` or the oldest date). A repeated photo looks fresher with another `crop` (`"crop": [0.1, 0.1, 0.9, 0.9]` = fractions x0,y0,x1,y1). If you still had to settle for weak visuals, say so in the report (thin photo bank). Restricted images are hidden by the tool; never force them. If no image fits a row, rewrite the row to fit an available image (never use an unrelated picture).
-- `music`: calm_dawn | calm_meadow | calm_evening | calm_water — the least recently used one (see `music` in the log); videos of the same day should use different tracks.
+- `music` (cheerful, since 2026-10-27; owner's wish): upbeat_sunrise | upbeat_walk | upbeat_market | upbeat_garden | upbeat_bloom — the least recently used one (see `music` in the log; old entries named `calm_*`/`legacy` count as never used); the five videos of one day use five different tracks. Health-sensitive topics (Wormexit, sleep/stress, digestion) → `upbeat_sunrise` (the gentlest). The `calm_*` tracks exist only for the `classic` fallback style.
+- `img2` (optional, per row): a second real photo for a long row (≥ 4 s of speech). At every cut the picture alternates between `img` and `img2`. Same rules as `img` (fits the sentence, not restricted, not used twice in the video; `find_images.py`). No fitting second photo → leave it out: the same photo is re-framed (wide / close-up) at every cut. Never add an unrelated photo just to have one.
+- `style` (do not set): the default `fast` style is the owner's wish since 2026-10-27 — the photo window is re-framed about every 2 s (cuts coincide with subtitle changes, a short punch-in at every cut, close-ups up to 1.6×), rows are joined by 0.16 s slide/wipe transitions and the music is audible (≈ 19 dB under the voice). `"style": "classic"` (slow zoom, fades, calm music) is only a fallback if `fast` fails to build twice.
 
 ### 5.2 Caption `$W/caption.txt`
 Exact shape (see examples/*_caption.txt):
@@ -126,10 +128,10 @@ The harvest prints chars/s per row; outside 8–18 = suspicious (cut or wrong or
 
 ### 5.5 Build and QC
 ```
-python3 tools/build_reel.py $W/spec.json --voices $W/voice --out $W/$ID.mp4 --work $W/build      # ≈1.5 min; never run two builds at the same time (2 CPUs)
+python3 tools/build_reel.py $W/spec.json --voices $W/voice --out $W/$ID.mp4 --work $W/build      # ≈1.2 min; never run two builds at the same time (2 CPUs)
 python3 tools/qc_video.py $W/$ID.mp4 --sheet $W/$ID.sheet.jpg                                       # exit 1 = problem
 ```
-Then LOOK at `$W/$ID.sheet.jpg` with the Read tool: handle on top, readable subtitles that match the speech, photos that fit each sentence, no person in distress, no cartoons, final frame shows the product and `+992097594444`. Any defect → fix the spec (not the tool) and rebuild once. Copy the passing mp4 to `/tmp/reels/D/final/`.
+Then LOOK at `$W/$ID.sheet.jpg` AND `$W/$ID.sheet.shots.jpg` (one tile per picture cut) with the Read tool: handle on top, readable subtitles that match the speech, photos that fit each sentence, a close-up never crops away the subject of the photo (if one does: give that row another `crop` or photo), no person in distress, no cartoons, final frame shows the product and `+992097594444`. Any defect → fix the spec (not the tool) and rebuild once. Copy the passing mp4 to `/tmp/reels/D/final/`.
 
 ## 6. Publish (right after each video passes QC — earliest slot first)
 
@@ -191,5 +193,5 @@ produce/catchup runs: same list but statuses «ба нақша гирифта ш
 | Time is running out before the first free slot | Make the slots in chronological order; skip what cannot be ready ≥10 min before its time. |
 
 ## 11. File map
-`products.json` (facts and limits per product) · `knowledge/` (safe_advice.md, tajik_style.md) · `assets/stock` + `stock_index.json` (licensed photos), `assets/products/<id>/main.jpg`, `assets/music`, `assets/voice/final_*.wav` (fixed closing voice), `assets/fonts` · `examples/` (lint-clean specs+captions) · `tools/` (pick_products, find_images, lint_spec, harvest_tts, process_voice, build_reel, qc_video, push_media.sh, record_run) · `state/topics_log.json` (history), `state/specs/` (specs/captions of scheduled Reels) · `reports/` (daily reports).
+`products.json` (facts and limits per product) · `knowledge/` (safe_advice.md, tajik_style.md) · `assets/stock` + `stock_index.json` (licensed photos), `assets/products/<id>/main.jpg`, `assets/music` (upbeat_* = default, calm_* = classic fallback), `assets/voice/final_*.wav` (fixed closing voice), `assets/fonts` · `examples/` (lint-clean specs+captions) · `tools/` (pick_products, find_images, lint_spec, harvest_tts, process_voice, build_reel, qc_video, push_media.sh, record_run; make_music.py / make_music_upbeat.py regenerate the music) · `state/topics_log.json` (history), `state/specs/` (specs/captions of scheduled Reels) · `reports/` (daily reports).
 Known limits to mention in reports when relevant: the Tajik is machine-written and the voice is synthetic (a native speaker should review sometimes); the photo bank is small (63 images), so repeats appear; new products/photos can only be added from the owner's computer (cloud has no Telegram/Pexels access).

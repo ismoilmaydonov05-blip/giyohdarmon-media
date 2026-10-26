@@ -22,7 +22,7 @@ if a.cmd == 'add':
     s = json.load(open(a.spec, encoding='utf-8'))
     d['videos'] = [v for v in d['videos'] if v['id'] != s['id']]
     d['videos'].append(dict(id=s['id'], date=s['date'] if 'date' in s else s['id'].split('_')[0], slot=a.slot, product=s['product'], topic=s['topic'], music=s['music'],
-        rows=[r['text'] for r in s['rows']], images=[r['img'] for r in s['rows'] if not r['img'].startswith('products/')], metricool_id=a.metricool_id, uuid=a.uuid, status=a.status, url=None))
+        rows=[r['text'] for r in s['rows']], images=[x for r in s['rows'] for x in (r['img'], r.get('img2')) if x and not x.startswith('products/')], metricool_id=a.metricool_id, uuid=a.uuid, status=a.status, url=None))
 elif a.cmd == 'status':
     v = next(v for v in d['videos'] if v['id'] == a.id); v['status'] = a.status
     if a.url: v['url'] = a.url

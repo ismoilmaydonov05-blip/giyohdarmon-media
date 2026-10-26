@@ -35,5 +35,18 @@ if a.sheet:
     for i, f in enumerate(frames):
         S.paste(Image.open(f), ((i % 6) * 270, (i // 6) * 480)); os.remove(f)
     S.save(a.sheet, quality=82); res['sheet'] = a.sheet
+    bj = os.path.splitext(a.video)[0] + '.build.json'          # fast style: one frame per shot, to judge every framing
+    if os.path.exists(bj):
+        mids = json.load(open(bj)).get('shot_mid_times') or []
+        if len(mids) > 1:
+            mids = mids[:36]; tiles = []
+            for i, t in enumerate(mids):
+                out = f'/tmp/_qs_{os.getpid()}_{i}.jpg'
+                sh(['ffmpeg', '-y', '-loglevel', 'error', '-ss', f'{min(t, dur - 0.1):.2f}', '-i', a.video, '-frames:v', '1', '-vf', 'scale=216:384', out]); tiles.append(out)
+            cols = 8; rows_ = (len(tiles) + cols - 1) // cols
+            S2 = Image.new('RGB', (216 * cols, 384 * rows_), (20, 20, 20))
+            for i, f in enumerate(tiles):
+                S2.paste(Image.open(f), ((i % cols) * 216, (i // cols) * 384)); os.remove(f)
+            p2 = os.path.splitext(a.sheet)[0] + '.shots.jpg'; S2.save(p2, quality=80); res['shots_sheet'] = p2
 print(json.dumps(res, ensure_ascii=False, indent=1))
 sys.exit(1 if P else 0)
